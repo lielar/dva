@@ -1,7 +1,5 @@
 package au.gov.dva.mvc;
 
-import java.util.Date;
-
 public class ClaimObject {
 
 	int id;

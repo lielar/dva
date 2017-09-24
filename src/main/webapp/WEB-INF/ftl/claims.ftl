@@ -17,12 +17,12 @@
 
 </head>
 <body>
-<div class="jumbotron"><h1>Book List</h1></div>
+<div class="jumbotron"><h1>Claims List</h1></div>
 
 <table class="container">
-<#list model["booklist"] as book> 
+<#list model["claimList"] as claim> 
 <tr class="col-xs-3">
-<td class="row">${book.title} - ${book.author}</td>
+<td class="row">${claim.description} - ${claim.amount} - ${claim.claimDate}</td>
 </tr>
 </#list>
 </div>

@@ -47,13 +47,13 @@ $.ajax({
 
 </head>
 <body>
-<div class="jumbotron"><h1>Book List</h1></div>
+<div class="jumbotron"><h1>Users and claim list</h1></div>
 
 <table class="container">
 <#list model["userlists"] as user> 
 <tr class="col-xs-3">
 <td class="row">${user.user.name} - Phone - ${user.user.phone}, Email - ${user.user.email} - <span class="badge">claims - ${user.claims?size}</span>
-<br/><input type="button" class="button btn-default" value="Borrow List" onClick="callAjax('${user.user.id}')"/>
+<br/><input type="button" class="button btn-default" value="Claim List" onClick="callAjax('${user.user.id}')"/>
 </td>
 </tr>
 
