@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import au.gov.dva.mvc.UserViewObject;
 import au.gov.dva.test.db.UserDB;
+import au.gov.dva.test.db.dao.ClaimDao;
+import au.gov.dva.test.db.dao.ClaimDaoImpl;
+import au.gov.dva.test.db.dao.UserDao;
+import au.gov.dva.test.db.dao.UserDaoImpl;
 import au.gov.dva.test.db.Claim;
-import au.dva.test.db.dao.ClaimDao;
-import au.dva.test.db.dao.ClaimDaoImpl;
-import au.dva.test.db.dao.UserDao;
-import au.dva.test.db.dao.UserDaoImpl;
 
 
 @Controller

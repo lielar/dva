@@ -14,7 +14,7 @@ This application uses
 
 
 # Instructions
-To build the application,
+To build the application
 ```sh
 mvn clean install
 ````
@@ -23,6 +23,12 @@ To run the application
 ```sh
 mvn tomcat7::deploy
 ```
+
+# Test cases
+Run the test cases in Eclipse.
+
 # Pages to view
 1. claims.html - lists all the claims.
 2. users.html - lists all the users and their respective claims. Uses a REST endpoint.
+
+

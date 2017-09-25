@@ -1,4 +1,4 @@
-package au.dva.test.db.dao;
+package au.gov.dva.test.db.dao;
 
 import java.io.IOException;
 import java.util.Properties;

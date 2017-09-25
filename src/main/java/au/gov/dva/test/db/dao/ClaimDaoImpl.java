@@ -1,7 +1,7 @@
 /**
  * 
  */
-package au.dva.test.db.dao;
+package au.gov.dva.test.db.dao;
 
 import java.util.List;
 
@@ -92,7 +92,7 @@ public class ClaimDaoImpl implements ClaimDao {
 		@SqlQuery("select * from claims where id = :id")
 		Claim get(@Bind("id") int id);
 
-		@SqlQuery("select * from claims where descripiton like :description")
+		@SqlQuery("select * from claims where description like :description")
 		List<Claim> getByDescription(@Bind("description") String description);
 		
 		@SqlQuery("select * from claims")
