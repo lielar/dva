@@ -20,7 +20,7 @@ mvn clean install
 ````
 
 To run the application, you will need to setup tomcat deploy as a Maven Run item. Run->Run Config -> Maven 
-![alt text] (http:https://github.com/lielar/dva/raw/master/run_config.png "Maven Run Config")
+![alt text] (https://github.com/lielar/dva/raw/master/run_config.png "Maven Run Config")
 
 
 # Test cases
