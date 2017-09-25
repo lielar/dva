@@ -19,10 +19,9 @@ To build the application
 mvn clean install
 ````
 
-To run the application
-```sh
-mvn tomcat7::deploy
-```
+To run the application, you will need to setup tomcat deploy as a Maven Run item. Run->Run Config -> Maven 
+![Run Config] (run_config.png "Maven Run Config")
+
 
 # Test cases
 Run the test cases in Eclipse.
