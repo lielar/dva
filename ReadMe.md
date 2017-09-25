@@ -21,7 +21,7 @@ mvn clean install
 
 To run the application, you will need to setup tomcat deploy as a Maven Run item. Run->Run Config -> Maven 
 
-![Run Config] (https://github.com/lielar/dva/raw/master/run_config.png)
+![Run Config](https://github.com/lielar/dva/raw/master/run_config.png)
 
 
 # Test cases
