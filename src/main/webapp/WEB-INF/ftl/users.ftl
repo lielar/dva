@@ -19,7 +19,7 @@
 function callAjax(userid) {
 $.ajax({
    type: "GET",
-   url: "http://localhost:9090/nla2/claimsquery/userquery/"+userid,
+   url: "http://localhost:8080/nla2/claimsquery/userquery/"+userid,
    dataType: "json",
    success: function(msg){
    	   console.log(msg);
