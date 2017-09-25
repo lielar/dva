@@ -1,7 +1,7 @@
 # Introduction
 This is my attempt for the DVA RFQ - DVA ICTSB RFQ-004.
 
-##Overview
+# Overview
 This application uses
 * Java
 * Maven for building
@@ -10,7 +10,7 @@ This application uses
 * JQuery to manipulate DOM from results of a endpoint REST execution
 * Bootstrap CSS
 
-##Instructions
+# Instructions
 To build the application,
 ```sh
 mvn clean install
