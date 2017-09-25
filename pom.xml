@@ -53,7 +53,7 @@
 				<version>2.2</version>
 				<configuration>
 					<port>8080</port>
-					<path>/nla2</path>
+					<path>/dva</path>
 
 					<server>Tomcatserver</server>
 					<username>tomcat</username>
